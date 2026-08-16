@@ -1,16 +1,16 @@
 :root {
-  --cream: #d9eff0;
-  --cream-2: #c9e7ea;
+  --cream: #a8dce2;
+  --cream-2: #8fd0d7;
   --white: #ffffff;
   --green: #0f4c53;
   --green-2: #16636c;
-  --green-soft: #cde7e9;
+  --green-soft: #bfe4e8;
   --yolk: #ffc93c;
   --yolk-deep: #eda816;
-  --ink: #0c3a40;
-  --ink-2: #28575e;
-  --muted: #5b7e82;
-  --line: #aed5d9;
+  --ink: #0b3940;
+  --ink-2: #24525a;
+  --muted: #4d7379;
+  --line: #85c4ca;
   --shadow: 0 18px 40px -22px rgba(15, 76, 83, 0.35);
   --radius: 20px;
 }
@@ -33,8 +33,8 @@ body {
   font-family: 'Inter', system-ui, sans-serif;
   color: var(--ink);
   background:
-    radial-gradient(900px 380px at 90% -2%, rgba(255, 201, 60, 0.18), transparent 55%),
-    radial-gradient(1100px 420px at 8% -4%, rgba(22, 99, 108, 0.10), transparent 55%),
+    radial-gradient(900px 380px at 90% -2%, rgba(255, 201, 60, 0.16), transparent 55%),
+    radial-gradient(1100px 420px at 8% -4%, rgba(22, 99, 108, 0.14), transparent 55%),
     var(--cream);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
@@ -81,7 +81,7 @@ ul {
   z-index: 50;
   padding: 12px 16px;
   margin-bottom: 48px;
-  background: rgba(217, 239, 240, 0.92);
+  background: rgba(168, 220, 226, 0.92);
   backdrop-filter: blur(8px);
   border: 1.5px solid var(--line);
   border-radius: 999px;
