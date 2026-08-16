@@ -14,12 +14,14 @@ Served at https://farm.srijantangnamimagar.com.np via GitHub Pages.
 - `CNAME` — custom domain for GitHub Pages
 
 ## Before going live
+-----------------
 
-Replace the placeholders marked in `index.html`:
+Replace the remaining placeholders in `index.html`:
 
 - Phone / WhatsApp number (`+977 98XX XXXXXX`)
-- Duck egg prices (currently `Rs. —`)
 - Delivery areas if narrower than the valley
+
+Prices are set: Rs. 450 / half crate (15 eggs), Rs. 900 / full crate (30 eggs).
 
 Photos for the gallery can be dropped in later by replacing each `.gallery-slot`
 placeholder with a real `<img>`.
