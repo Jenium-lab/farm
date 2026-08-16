@@ -65,7 +65,7 @@ ul {
   width: 100%;
   max-width: none;
   margin: 0;
-  padding: 24px 36px 80px;
+  padding: 24px 28px 80px;
 }
 
 /* ---------------------------------------------------------------
@@ -170,6 +170,7 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  width: 100%;
 }
 
 .chip {
@@ -200,10 +201,10 @@ ul {
 }
 
 .hero h1 {
-  font-size: clamp(2.4rem, 5.6vw, 3.9rem);
+  font-size: clamp(2.4rem, 5.6vw, 4.4rem);
   line-height: 1.02;
   margin-bottom: 18px;
-  max-width: 14em;
+  max-width: 100%;
 }
 .hero h1 em {
   font-style: normal;
@@ -226,7 +227,7 @@ ul {
 .lead {
   font-size: 1.13rem;
   color: var(--ink-2);
-  max-width: 33em;
+  max-width: 44em;
 }
 
 .actions {
@@ -436,8 +437,8 @@ main {
   margin-bottom: 30px;
 }
 .section-heading h2 {
-  font-size: clamp(1.7rem, 3.4vw, 2.5rem);
-  max-width: 16em;
+  font-size: clamp(1.7rem, 3.4vw, 2.7rem);
+  max-width: 22em;
 }
 .section-heading .muted {
   color: var(--muted);
