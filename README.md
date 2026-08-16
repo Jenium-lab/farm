@@ -16,11 +16,12 @@ Served at https://farm.srijantangnamimagar.com.np via GitHub Pages.
 ## Before going live
 -----------------
 
-Replace the remaining placeholders in `index.html`:
+Remaining placeholder to fill in `index.html`:
 
-- Phone / WhatsApp number (`+977 98XX XXXXXX`) — used in the Contact box, the
-  `tel:` order link, and the JSON-LD structured data (`telephone`)
 - Delivery areas if narrower than the valley
+
+Contact: phone/WhatsApp is `+977 9841415372` (also in JSON-LD `telephone` and
+the `tel:` / WhatsApp buttons).
 
 Prices are set: Rs. 450 / half crate (15 eggs), Rs. 900 / full crate (30 eggs).
 
