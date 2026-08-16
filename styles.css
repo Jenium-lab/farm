@@ -738,6 +738,45 @@ main {
   color: var(--yolk);
   margin-bottom: 2px;
 }
+.map-card {
+  width: 100%;
+  max-width: 720px;
+  background: var(--white);
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  margin-top: 30px;
+  position: relative;
+  z-index: 1;
+}
+.map-card iframe {
+  display: block;
+  width: 100%;
+  height: 320px;
+  border: 0;
+}
+.map-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding: 14px 18px;
+  background: var(--white);
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--green);
+}
+.map-actions a {
+  font-weight: 700;
+  color: var(--green-2);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.map-actions a:hover {
+  text-decoration: underline;
+}
+
 .tiny {
   font-size: 0.82rem;
   color: rgba(255, 255, 255, 0.5);
